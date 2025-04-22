@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 // Schema for SMS templates that users can configure
 const smsTemplateSchema = new mongoose.Schema({
   name: {
