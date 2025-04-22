@@ -1,0 +1,6 @@
+Checking environment variables...
+✓ TELNYX_API_KEY is set: KEY0...2198
+✓ TELNYX_SIP_CONNECTION_ID is set: 2667...6130
+✓ TELNYX_MESSAGING_PROFILE_ID is set: 4001...289d
+
+All required environment variables are set!

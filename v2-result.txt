@@ -1,0 +1,19 @@
+Testing Telnyx API with key: KEY01965B3...
+Key length: 58 characters
+Detected V2 API key format: YES
+Using Basic authentication for V2 API key
+Sending request to Telnyx API...
+
+Response received: 401 Unauthorized
+
+ERROR: API connection failed.
+Error code: 10009
+Error title: Authentication failed
+Error detail: No key found matching the ID 'KEY01965B3E92FAFD2714EF60E0937BCC88' with the provided secret.
+
+TROUBLESHOOTING SUGGESTIONS:
+1. Your V2 API key might be incorrect or expired
+2. Make sure you're using the correct V2 API key format: KEY_SECRET
+3. Login to Telnyx Portal: https://portal.telnyx.com
+4. Go to Auth > API Keys section and create a new V2 API key
+5. Update your .env file with the new key

@@ -1,0 +1,7 @@
+Detected V2 API key format
+Using key ID: KEY01965B3... with secret
+Searching for available phone numbers...
+
+There was a problem with your Telnyx API key.
+If you're using a V2 API key (with underscore), make sure you have the entire key including the secret portion.
+You can get a new API key from: https://portal.telnyx.com/#/app/api-keys

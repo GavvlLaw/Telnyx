@@ -1,0 +1,55 @@
+Testing Telnyx API authentication with key starting with: KEY0...
+API key length: 35
+API key format correct (starts with "KEY"): true
+---------------------------------------------------
+
+Trying Method 1: Bearer token...
+Status: 401 Unauthorized
+❌ FAILED with this authentication method.
+Error details: {
+  "code": "10009",
+  "meta": {
+    "url": "https://developers.telnyx.com/docs/overview/errors/10009"
+  },
+  "title": "Authentication failed",
+  "source": {
+    "pointer": "/"
+  },
+  "detail": "The API key looks malformed. Check that you copied it correctly."
+}
+
+Trying Method 2: Direct API key...
+Status: 401 Unauthorized
+❌ FAILED with this authentication method.
+Error details: {
+  "code": "10009",
+  "meta": {
+    "url": "https://developers.telnyx.com/docs/overview/errors/10009"
+  },
+  "title": "Authentication failed",
+  "source": {
+    "pointer": "/"
+  },
+  "detail": "Could not find any usable credentials in the request."
+}
+
+Trying Method 3: API key as username...
+Status: 401 Unauthorized
+❌ FAILED with this authentication method.
+Error details: {
+  "code": "10009",
+  "meta": {
+    "url": "https://developers.telnyx.com/docs/overview/errors/10009"
+  },
+  "title": "Authentication failed",
+  "source": {
+    "pointer": "/"
+  },
+  "detail": "No key found matching the ID 'KEY019607DD211258F4E9E7FD81A27B2198' with the provided secret."
+}
+
+---------------------------------------------------
+Testing complete. If all methods failed, consider:
+1. Generate a new API key in the Telnyx Portal
+2. Ensure your account is active and in good standing
+3. Update your .env file with the new key using: node update-telnyx-key.js

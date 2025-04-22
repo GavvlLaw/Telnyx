@@ -1,0 +1,33 @@
+Testing Telnyx API with key starting with: KEY0...
+Status Code: 401
+Status Message: Unauthorized
+Headers: {
+  "date": "Tue, 22 Apr 2025 02:02:32 GMT",
+  "content-type": "application/json",
+  "content-length": "236",
+  "connection": "close",
+  "cache-control": "no-store",
+  "x-request-id": "7abbba07-1445-9b45-ba83-d4ddd97f2d27",
+  "x-envoy-upstream-service-time": "5",
+  "cf-cache-status": "DYNAMIC",
+  "strict-transport-security": "max-age=0",
+  "server": "cloudflare",
+  "cf-ray": "93418a1e4ab3eac2-ORD"
+}
+
+API connection failed
+Error Response: {
+  "errors": [
+    {
+      "code": "10009",
+      "meta": {
+        "url": "https://developers.telnyx.com/docs/overview/errors/10009"
+      },
+      "title": "Authentication failed",
+      "source": {
+        "pointer": "/"
+      },
+      "detail": "The API key looks malformed. Check that you copied it correctly."
+    }
+  ]
+}

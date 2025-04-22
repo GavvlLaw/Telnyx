@@ -1,0 +1,15 @@
+===== Telnyx API Key Check =====
+Key starts with: KEY019607D...
+Key length: 35 characters
+Starts with "KEY": true
+
+✅ KEY FORMAT: Appears to be correct
+
+Full key for reference:
+KEY019607DD211258F4E9E7FD81A27B2198
+
+===== Next Steps =====
+1. If the key format looks incorrect, get a new key from:
+   https://portal.telnyx.com/#/app/api-keys
+2. Update your .env file with: node update-telnyx-key.js
+3. Test the API with: node test-telnyx-special.js
